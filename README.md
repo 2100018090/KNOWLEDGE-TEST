@@ -57,16 +57,28 @@ Fokus project ini adalah:
 > `assets/hero.png`, `assets/navbar.png`, `assets/products.png`, dll.
 
 #### ⭐ Hero Section
-![Hero Section](./assets/hero.png)
+![Hero Section](./asset/img/Screenshot%20(607).png)
 
-#### ⭐ Navbar (Fixed Top)
-![Navbar](./assets/navbar.png)
+#### ⭐ Product Pilihan
+![Produk](./asset/img/Screenshot%20(608).png)
 
-#### ⭐ Produk Pilihan
-![Produk](./assets/products.png)
+#### ⭐ Pruduct (Fixed Top)
+![Navbar](./asset/img/Screenshot%20(609).png)
+
+#### ⭐ Footer
+![Login Modal](./asset/img/Screenshot%20(610).png)
 
 #### ⭐ Modal Login
-![Login Modal](./assets/login.png)
+![Login Modal](./asset/img/Screenshot%20(611).png)
+
+#### ⭐ Dashboard Admin
+![Login Modal](./asset/img/Screenshot%20(612).png)
+
+#### ⭐ Data User
+![Login Modal](./asset/img/Screenshot%20(613).png)
+
+#### ⭐ Data Product
+![Login Modal](./asset/img/Screenshot%20(614).png)
 
 ---
 
