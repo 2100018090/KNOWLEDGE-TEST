@@ -1,0 +1,80 @@
+/* Overlay dan backdrop */
+.modal.fade.show.d-block {
+  animation: fadeInOverlay 0.3s ease;
+}
+
+/* Animasi fade overlay */
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal dialog */
+.modal-dialog {
+  transform: translateY(-20px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Saat muncul */
+.modal.fade.show .modal-dialog {
+  transform: translateY(0);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+/* Modal content */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+/* Header */
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0.5rem;
+}
+
+/* Close button */
+.modal-header .btn-close {
+  filter: brightness(0.7);
+  transition: filter 0.2s ease;
+}
+
+.modal-header .btn-close:hover {
+  filter: brightness(1);
+}
+
+/* Modal body inputs */
+.modal-body input.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  padding: 0.5rem 0.75rem;
+}
+
+.modal-body input.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Footer buttons */
+.modal-footer {
+  border-top: none;
+  padding-top: 0.5rem;
+}
+
+.modal-footer .btn {
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.modal-footer .btn:hover {
+  transform: translateY(-2px);
+}
